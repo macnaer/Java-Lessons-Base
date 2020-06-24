@@ -14,21 +14,23 @@ import java.io.InputStreamReader;
  * @author macnaer
  */
 public class Developer {
-    private String name;
-    private String city;
-    private String position;
-    private int age;
-    private int salery;
-    private String[] skills = new String[5];
+    protected String name;
+    protected String city;
+    protected String position;
+    protected int age;
+    protected int salery;
+    protected String[] skills = new String[5];
     private static int counter = 0;
+    public Team team;
     
-    public Developer(String name, String city, String position, int age, int salery){
+    public Developer(String name, String city, String position, int age, int salery, String teamName){
         this.name = name;
         this.city = city;
         this.position = position;
         this.age = age;
         this.salery = salery;
         this.counter++;
+        this.team = new Team(teamName);
     }
     
     public Developer() throws IOException{
@@ -102,5 +104,19 @@ public class Developer {
     
     public int getCounter(){
         return this.counter;
+    }
+    
+    class Team{
+        private String teamName;
+        
+        public Team(String newTeam){
+            this.teamName = newTeam;
+        }
+        public void setTeam(String teamName){
+            this.teamName = teamName;
+        }
+        public String getTeamName(){
+            return this.teamName;
+        }
     }
 }
