@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  *
  * @author macnaer
  */
-abstract public class Developer {
+abstract public class Developer{
     protected String name;
     protected String city;
     protected String position;
