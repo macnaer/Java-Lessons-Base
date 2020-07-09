@@ -14,31 +14,31 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="images/t-shirts-img.jpg" alt="" />
+                    <img class="img-fluid" src="<c:url value="/resources/images/t-shirts-img.jpg"/>" alt="" />
                     <a class="btn hvr-hover" href="#">T-shirts</a>
                 </div>
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="images/shirt-img.jpg" alt="" />
+                    <img class="img-fluid" src="<c:url value="/resources/images/shirt-img.jpg"/>" alt="" />
                     <a class="btn hvr-hover" href="#">Shirt</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="images/wallet-img.jpg" alt="" />
+                    <img class="img-fluid" src="<c:url value="/resources/images/wallet-img.jpg"/>" alt="" />
                     <a class="btn hvr-hover" href="#">Wallet</a>
                 </div>
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="images/women-bag-img.jpg" alt="" />
+                    <img class="img-fluid" src="<c:url value="/resources/images/women-bag-img.jpg"/>" alt="" />
                     <a class="btn hvr-hover" href="#">Bags</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="images/shoes-img.jpg" alt="" />
+                    <img class="img-fluid" src="<c:url value="/resources/images/shoes-img.jpg"/>" alt="" />
                     <a class="btn hvr-hover" href="#">Shoes</a>
                 </div>
                 <div class="shop-cat-box">
-                    <img class="img-fluid" src="images/women-shoes-img.jpg" alt="" />
+                    <img class="img-fluid" src="<c:url value="/resources/images/women-shoes-img.jpg"/>" alt="" />
                     <a class="btn hvr-hover" href="#">Women Shoes</a>
                 </div>
             </div>
@@ -77,7 +77,7 @@
                         <div class="type-lb">
                             <p class="sale">Sale</p>
                         </div>
-                        <img src="images/img-pro-01.jpg" class="img-fluid" alt="Image">
+                        <img src="<c:url value="/resources/images/img-pro-01.jpg"/>" class="img-fluid" alt="Image">
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -100,7 +100,7 @@
                         <div class="type-lb">
                             <p class="new">New</p>
                         </div>
-                        <img src="images/img-pro-02.jpg" class="img-fluid" alt="Image">
+                        <img src="<c:url value="/resources/images/img-pro-02.jpg"/>" class="img-fluid" alt="Image">
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -123,7 +123,7 @@
                         <div class="type-lb">
                             <p class="sale">Sale</p>
                         </div>
-                        <img src="images/img-pro-03.jpg" class="img-fluid" alt="Image">
+                        <img src="<c:url value="/resources/images/img-pro-03.jpg"/>" class="img-fluid" alt="Image">
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -146,7 +146,7 @@
                         <div class="type-lb">
                             <p class="sale">Sale</p>
                         </div>
-                        <img src="images/img-pro-04.jpg" class="img-fluid" alt="Image">
+                        <img src="<c:url value="/resources/images/img-pro-04.jpg"/>" class="img-fluid" alt="Image">
                         <div class="mask-icon">
                             <ul>
                                 <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
@@ -182,7 +182,7 @@
             <div class="col-md-6 col-lg-4 col-xl-4">
                 <div class="blog-box">
                     <div class="blog-img">
-                        <img class="img-fluid" src="images/blog-img.jpg" alt="" />
+                        <img class="img-fluid" src="<c:url value="/resources/images/blog-img.jpg"/>" alt="" />
                     </div>
                     <div class="blog-content">
                         <div class="title-blog">
@@ -200,7 +200,7 @@
             <div class="col-md-6 col-lg-4 col-xl-4">
                 <div class="blog-box">
                     <div class="blog-img">
-                        <img class="img-fluid" src="images/blog-img-01.jpg" alt="" />
+                        <img class="img-fluid" src="<c:url value="/resources/images/blog-img-01.jpg"/>" alt="" />
                     </div>
                     <div class="blog-content">
                         <div class="title-blog">
@@ -218,7 +218,7 @@
             <div class="col-md-6 col-lg-4 col-xl-4">
                 <div class="blog-box">
                     <div class="blog-img">
-                        <img class="img-fluid" src="images/blog-img-02.jpg" alt="" />
+                        <img class="img-fluid" src="<c:url value="/resources/images/blog-img-02.jpg"/>" alt="" />
                     </div>
                     <div class="blog-content">
                         <div class="title-blog">

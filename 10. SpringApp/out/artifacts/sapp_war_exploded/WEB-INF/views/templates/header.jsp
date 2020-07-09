@@ -96,7 +96,7 @@
                     <ul>
                         <li><a href="#">My Account</a></li>
                         <li><a href="#">Our location</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="<c:url value="/contact"/>">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -115,15 +115,15 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="<c:url value="/resources/images/logo.png"/>" class="logo" alt=""></a>
+                <a class="navbar-brand" href="<c:url value="/"/>"> <img src="<c:url value="/resources/images/logo.png"/>" class="logo" alt=""></a>
             </div>
             <!-- End Header Navigation -->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="<c:url value="/"/>">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<c:url value="/about"/>">About Us</a></li>
                     <li class="dropdown megamenu-fw">
                         <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</a>
                         <ul class="dropdown-menu megamenu-content" role="menu">
@@ -133,7 +133,7 @@
                                         <h6 class="title">Top</h6>
                                         <div class="content">
                                             <ul class="menu-col">
-                                                <li><a href="shop.html">Jackets</a></li>
+                                                <li><a href="<c:url value="/productList"/>">Jackets</a></li>
                                                 <li><a href="shop.html">Shirts</a></li>
                                                 <li><a href="shop.html">Sweaters & Cardigans</a></li>
                                                 <li><a href="shop.html">T-shirts</a></li>
@@ -191,8 +191,8 @@
                             <li><a href="shop-detail.html">Shop Detail</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="service.html">Our Service</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<c:url value="/service"/>">Our Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<c:url value="/contact"/>">Contact Us</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
