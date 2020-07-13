@@ -6,7 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@include file="templates/header.jsp"%>
 <%@include file="templates/internal-banner.jsp"%>
 <!-- Start Shop Page  -->
@@ -172,8 +171,8 @@
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade show active" id="grid-view">
                                 <div class="row">
+                                    <c:forEach items="${products}" var="product">
                                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                                        <c:forEach items="${products}" var="product">
                                         <div class="products-single fix">
                                             <div class="box-img-hover">
                                                 <div class="type-lb">
@@ -190,12 +189,12 @@
                                                 </div>
                                             </div>
                                             <div class="why-text">
-                                                <h4>Lorem ipsum dolor sit amet</h4>
-                                                <h5> $9.79</h5>
+                                                <h4>${product.productDescription}</h4>
+                                                <h5> $${product.productPrice}</h5>
                                             </div>
                                         </div>
-                                        </c:forEach>
                                     </div>
+                                    </c:forEach>
                                 </div>
                             </div>
                             <div role="tabpanel" class="tab-pane fade" id="list-view">
