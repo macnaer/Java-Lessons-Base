@@ -1,3 +1,4 @@
+<%@ taglib prefix="spring" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: macnaer
@@ -189,7 +190,7 @@
                                                 </div>
                                             </div>
                                             <div class="why-text">
-                                                <h4>${product.productDescription}</h4>
+                                                <h4><a href="<spring:url value="/productList/viewProduct/${product.productId}"/>">${product.productDescription}</a></h4>
                                                 <h5> $${product.productPrice}</h5>
                                             </div>
                                         </div>

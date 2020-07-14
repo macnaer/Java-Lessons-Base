@@ -1,6 +1,7 @@
 package org.example.dao;
 import org.example.model.Product;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,5 +33,16 @@ public class ProductDao {
         productList.add(product1);
         productList.add(product2);
         return productList;
+    }
+
+    public Product getProductById(String productId)  throws IOException {
+
+        for (Product product : getProductList()){
+            if (product.getProductId().equals(productId)){
+                return  product;
+            }
+        }
+        throw new IOException("No product found.");
+
     }
 }
