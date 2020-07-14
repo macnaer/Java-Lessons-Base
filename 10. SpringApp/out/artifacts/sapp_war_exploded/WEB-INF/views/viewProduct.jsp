@@ -44,7 +44,7 @@
                 <div class="single-product-details">
                     <h2>${product.productCategory}</h2>
                     <h5> <del>$${product.productPrice}</del> $40.79</h5>
-                    <p class="available-stock"><span> More than ${product.productCondition} available / <a href="#">8 sold </a></span>
+                    <p class="available-stock"><span> More than 20 available / <a href="#">8 sold </a></span>
                     <p>
                     <h4>Short Description:</h4>
                     <p>${product.productDescription}</p>
