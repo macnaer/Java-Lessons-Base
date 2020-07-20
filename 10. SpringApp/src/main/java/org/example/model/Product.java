@@ -10,9 +10,6 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private String productId;
 
-    @Transient
-    private MultipartFile productImage;
-
     private String productName;
     private String productCategory;
     private String productDescription;
@@ -20,6 +17,9 @@ public class Product {
     private String productCondition;
     private String productStatus;
     private String productManufacturer;
+
+    @Transient
+    private MultipartFile productImage;
 
     public String getProductId() {
         return productId;

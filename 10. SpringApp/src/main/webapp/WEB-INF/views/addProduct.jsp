@@ -15,7 +15,7 @@
             <div class="contact-form-right">
                 <h2>GET IN TOUCH</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio justo, ultrices ac nisl sed, lobortis porta elit. Fusce in metus ac ex venenatis ultricies at cursus mauris.</p>
-                <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" method="post" commandName="product">
+                <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" method="post" commandName="product" enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
@@ -68,7 +68,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="image">Upload Image</label>
-<%--                                <form:input path="productImage" type="file" placeholder="Upload image" id="image" class="form-control" />--%>
+                                <form:input path="productImage" type="file" placeholder="Upload image" id="image" class="form-control" />
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
