@@ -66,6 +66,11 @@
                                 <form:input path="productManufacturer" type="text" placeholder="Manufacturer" id="manufacturer" class="form-control" required="required" data-error="Please enter your email" />
                                 <div class="help-block with-errors"></div>
                             </div>
+                            <div class="form-group">
+                                <label for="image">Upload Image</label>
+<%--                                <form:input path="productImage" type="file" placeholder="Upload image" id="image" class="form-control" />--%>
+                                <div class="help-block with-errors"></div>
+                            </div>
                         </div>
                         <div class="col-md-12">
                             <div class="submit-button text-center">
