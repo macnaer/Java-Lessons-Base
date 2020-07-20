@@ -6,5 +6,5 @@ public interface ProductDao {
     Product getProductById(String id);
     List<Product> getAllProducts();
 //    void addProduct(Product product);
-//    void delProduct(String id);
+    void delProduct(String id);
 }

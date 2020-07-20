@@ -18,7 +18,11 @@ public class ProductDaoImplement implements ProductDao {
     private SessionFactory sessionFactory;
 
 //    public void addProduct(Product product){}
-//    public void delProduct(){}
+    public void delProduct(String id){
+        Session session = sessionFactory.getCurrentSession();
+        session.delete(getProductById(id));
+        session.flush();
+    }
 
     public List<Product> getAllProducts(){
         Session session = sessionFactory.getCurrentSession();
