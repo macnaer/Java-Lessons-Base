@@ -50,7 +50,7 @@ public class AdminController {
 
     @RequestMapping(value ="/admin/productInventory/addProduct", method = RequestMethod.POST)
     public String addProductPost(@ModelAttribute("product") Product product, HttpServletRequest request){
-        System.out.println(product);
+        productDao.addProduct(product);
         return "redirect:/admin/productInventory";
     }
 }

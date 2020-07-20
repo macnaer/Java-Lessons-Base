@@ -5,6 +5,6 @@ import java.util.List;
 public interface ProductDao {
     Product getProductById(String id);
     List<Product> getAllProducts();
-//    void addProduct(Product product);
+    void addProduct(Product product);
     void delProduct(String id);
 }
