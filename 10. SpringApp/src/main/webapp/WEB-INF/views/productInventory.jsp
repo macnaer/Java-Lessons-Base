@@ -178,7 +178,7 @@
                                                     <div class="type-lb">
                                                         <p class="sale">${product.productCondition}</p>
                                                     </div>
-                                                    <img src="<c:url value="/resources/images/img-pro-01.jpg"/>" class="img-fluid" alt="Image">
+                                                    <img src="<c:url value="/resources/images/${product.productId}.png"/>" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
                                                         <ul>
                                                             <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
